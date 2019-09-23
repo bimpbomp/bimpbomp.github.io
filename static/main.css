@@ -1,7 +1,32 @@
+body {
+    background-color: slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 .header {
     padding: 20px;
     overflow: hidden;
-    width: 500px;
+}
+
+.header h3 {
+    font-size: 60px;
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+    color: gainsboro;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-bg {
+    width: 100%;
+    background-color: darkslategrey;
 }
 
 .header img {
@@ -10,14 +35,27 @@
     width: 150px;
 }
 
-.header h3,
 .header p{
     margin-left: 15px;
     display: block;
     margin: 2px 0 0 0;
+    color: #f6f6f6;
 }
 
-.content {
+.waves-block {
+    width: 100%;
     padding: 20px;
     overflow: hidden;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+}
+
+.content p, ul {
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+    color: #f6f6f6;
 }
